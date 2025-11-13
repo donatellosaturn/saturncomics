@@ -1,0 +1,35 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+/* fonts */
+@font-face {
+    font-family: 'StencilStd';
+    src: url('Fonts/StencilSTD/StencilStd.woff') format('woff'),
+         url('Fonts/StencilSTD/StencilStd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "StencilStd", sans-serif;
+}
+
+nav {
+  text-align: center;
+  font-family: "Papyrus";
+}
+
+h5 {
+  text-align: center;
+  font-size: 20px;
+}
